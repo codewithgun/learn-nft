@@ -1,0 +1,16 @@
+{
+    "name": "AlanTuring #000000",
+    "description": "Just a #000000 Alan Turing",
+    "image": "ipfs://QmfREk3f3fqckyPQYE25DbzHfk3qCAiH2PALsUPdasfcJH",
+    "attributes": [
+        {
+            "trait_type": "Level",
+            "value": "100"
+        },
+        {
+            "display_type": "boost_percentage",
+            "trait_type": "Mathematic Skill",
+            "value": 100
+        }
+    ]
+}
