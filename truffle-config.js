@@ -14,11 +14,9 @@ module.exports = {
       provider: function() {
         return new HDWalletProvider({
           mnemonic: {
-            phrase:
-              "wish purpose collect rate acoustic conduct thing edit window antique shock off",
+            phrase: process.env.MNEMONIC,
           },
-          providerOrUrl:
-            "https://rinkeby.infura.io/v3/97b7f9de638542a58b56fd32c9c5319a",
+          providerOrUrl: process.env.RINKEBY_URL,
         });
       },
       network_id: "*",
